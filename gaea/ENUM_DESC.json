@@ -1,0 +1,30 @@
+{
+  "ary": [
+    {
+      "EnumTypeName": "\u5956\u52b1\u7c7b\u578b", 
+      "EnumItemAry": [
+        {
+          "Name": "\u65e0", 
+          "Value": 0
+        }, 
+        {
+          "Name": "\u94bb\u77f3", 
+          "Value": 1
+        }
+      ]
+    }, 
+    {
+      "EnumTypeName": "\u4e2a\u4eba\u7c7b\u578b", 
+      "EnumItemAry": [
+        {
+          "Name": "\u65e0", 
+          "Value": 0
+        }, 
+        {
+          "Name": "\u94bb\u77f3", 
+          "Value": 1
+        }
+      ]
+    }
+  ]
+}
