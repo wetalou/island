@@ -19,41 +19,21 @@ message EnumConfigAry {
 /***********示例结束*************/
 
 
-// 奖励类型
-enum PriceEnum {
-    // [奖励类型]无
-    PriceDefault = 0;
-
-    // [奖励类型]钻石
-    PriceDiamond = 1;
-}
-
-// 个人类型
-enum PersonEnum {
-    // [个人类型]无
-    PersonDefault = 0;
-
-    // [个人类型]钻石
-    PersonDiamond = 1;
-}
-
-
-
 /***********【邮件web系统——邮件配置】开始*************/
 message EmailWebItem {
     string Name = 1;
     string email = 2;
 }
 
-message EmailWebEmailAry {
+message EmailWebEmailConfigAry {
     repeated EmailWebItem ary = 1;
 }
 
-message EmailWebOwnEmailAry {
+message EmailWebOwnEmailConfigAry {
     repeated EmailWebItem ary = 1;
 }
 
-message EmailWebPrivateEmailAry {
+message EmailWebPrivateEmailConfigAry {
     repeated EmailWebItem ary = 1;
 }
 /***********【邮件web系统——邮件配置】结束*************/
