@@ -24,15 +24,15 @@ message EmailWebItem {
     string email = 2;
 }
 
-message EmailWebEmail {
+message EmailWebEmailAry {
     repeated EmailWebItem ary = 1;
 }
 
-message EmailWebOwnEmail {
+message EmailWebOwnEmailAry {
     repeated EmailWebItem ary = 1;
 }
 
-message EmailWebPrivateEmail {
+message EmailWebPrivateEmailAry {
     repeated EmailWebItem ary = 1;
 }
 ################【邮件web系统——邮件配置】结束#########################
