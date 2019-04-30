@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package aladinfun.project_for_test.proto;
 
-################示例开始#########################
+/***********示例开始*************/
 message EnumItem {
     string Name = 1;
     uint32 Value = 2;
@@ -16,9 +16,9 @@ message EnumConfig {
 message EnumConfigAry {
     repeated EnumConfig ary = 1;
 }
-################示例结束#########################
+/***********示例结束*************/
 
-################【邮件web系统——邮件配置】开始#########################
+/***********【邮件web系统——邮件配置】开始*************/
 message EmailWebItem {
     string Name = 1;
     string email = 2;
@@ -35,4 +35,4 @@ message EmailWebOwnEmailAry {
 message EmailWebPrivateEmailAry {
     repeated EmailWebItem ary = 1;
 }
-################【邮件web系统——邮件配置】结束#########################
+/***********【邮件web系统——邮件配置】结束*************/
